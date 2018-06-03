@@ -8,8 +8,8 @@ module.exports = (api, options, rootOptions) => {
           
         },
         dependencies: {
-          '@capacitor/cli': '^',
-          '@capacitor/core': '^'
+          '@capacitor/cli': '^1.0.0-alpha.38',
+          '@capacitor/core': '^1.0.0-alpha.38'
         }
     })    
 }
