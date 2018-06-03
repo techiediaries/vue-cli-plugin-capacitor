@@ -1,0 +1,33 @@
+{
+    "name": "vue-cli-plugin-capacitor",
+    "version": "1.0.0-alpha.0",
+    "description": "Vue CLI 3.x plugin for Ionic Capacitor",
+    "main": "index.js",
+    "scripts": {
+        "release": "standard-version"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/techiediaries/vue-cli-plugin-capacitor.git"
+    },
+    "keywords": [
+      "vue",
+      "ionic",
+      "capacitor",
+      "vue-cli"
+    ],
+    "author": "Ahmed Bouchefra",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/techiediaries/vue-cli-plugin-capacitor/issues"
+    },
+    "homepage": "https://github.com/techiediaries/vue-cli-plugin-capacitor#readme",
+    "dependencies": {
+      "@vue/cli-shared-utils": "^3.0.0-beta.6"
+    },
+    "devDependencies": {
+      "eslint": "^4.18.2",
+      "eslint-plugin-vue-libs": "^2.1.0",
+      "standard-version": "^4.3.0"
+    }
+  }
