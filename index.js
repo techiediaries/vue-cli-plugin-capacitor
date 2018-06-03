@@ -3,7 +3,7 @@ const { info } = require('@vue/cli-shared-utils')
 module.exports = (api, options) => {
     api.registerCommand('capacitor-init', {
         description: 'init Capacitor. This will also install the default native platforms.',
-        usage: 'vue-cli-service capacitor-init [options]',
+        usage: 'vue-cli-service capacitor-init',
         options: {
         }
       }, args => {

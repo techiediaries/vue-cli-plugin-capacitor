@@ -12,8 +12,28 @@ First, you need to setup Ionic Capacitor. Next run the following commands:
 
 ```bash
 $ vue add capacitor
-$ npm run capacitor-build
 ```
+
+Init Capacitor. This will also install the default native platforms.
+
+```bash
+$ npm run capacitor-init 
+```
+
+Copy your web Assets
+
+```bash
+$ npm run capacitor-copy 
+```
+
+Open your Native IDE
+
+```bash
+$ npm run capacitor-open 
+```
+
+
+
 
 
 ## License
