@@ -29,17 +29,9 @@ new Vue({
 
 ```
 
-## Start a Live Dev Server
+## Run the Development Server
 
-Start the dev server by running:
 
-With [Yarn](https://yarnpkg.com):
-
-```shell
-yarn capacitor:serve # add --android or --ios to specify a target platform
-```
-
-Or with npm:
 
 ```shell
 npm run capacitor:serve # add --android or --ios to specify a target platform
@@ -51,23 +43,13 @@ This will start a dev server, then open your native IDE (Android Studio or XCode
 
 Build your app by running:
 
-With Yarn:
-
-```shell
-yarn capacitor:build # add --android and/or --ios to specify a target platform(s)
-```
-
-Or with npm:
-
 ```shell
 npm run capacitor:build # add --android and/or --ios to specify a target platform(s)
 ```
 
 This will bundle your app, then open your native IDE (Android Studio or XCode). From here, build your app with the IDE tooling to create an Android/iOS app.
 
-## Further Configuration
 
-To learn more about Capacitor and how to use it, visit [Capacitor's Website](https://capacitor.ionicframework.com/). This plugin simply provides an easy-to-use interface for Vue CLI projects.
 
 ## How It Works
 
